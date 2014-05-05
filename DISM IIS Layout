@@ -1,0 +1,78 @@
+IIS-HostableWebCore
+IIS-WebServerRole
+ +-IIS-FTPServer
+ |  +-IIS-FTPExtensibility
+ |  +-IIS-FTPSvc
+ |  `-IIS-FTPExtensibility
+ +-IIS-WebServer
+ |  +-IIS-ApplicationDevelopment
+ |  |  +-IIS-ASP
+ |  |  +-IIS-ASPNET
+ |  |  +-IIS-CGI
+ |  |  +-IIS-ISAPIExtensions
+ |  |  |  +-IIS-ASP
+ |  |  |  +-IIS-ASPNET
+ |  |  |  `-MSMQ-HTTP
+ |  |  +-IIS-ISAPIFilter
+ |  |  |  `-IIS-ASPNET
+ |  |  +-IIS-NetFxExtensibility
+ |  |  |  +-IIS-ASPNET
+ |  |  |  +-MSMQ-HTTP
+ |  |  |  `-WCF-HTTP-Activation
+ |  |  `-IIS-ServerSideIncludes
+ |  +-IIS-CommonHttpFeatures
+ |  |  +-IIS-DefaultDocument
+ |  |  |  +-IIS-ASPNET
+ |  |  |  `-MSMQ-HTTP
+ |  |  +-IIS-DirectoryBrowsing
+ |  |  |  `-MSMQ-HTTP
+ |  |  +-IIS-HttpErrors
+ |  |  |  `-MSMQ-HTTP
+ |  |  +-IIS-HttpRedirect
+ |  |  |  `-MSMQ-HTTP
+ |  |  +-IIS-StaticContent
+ |  |  |  +-IIS-WebDAV
+ |  |  |  `-MSMQ-HTTP
+ |  |  `-IIS-WebDAV
+ |  +-IIS-HealthAndDiagnostics
+ |  |  +-IIS-CustomLogging
+ |  |  +-IIS-HttpLogging
+ |  |  |  `-MSMQ-HTTP
+ |  |  +-IIS-HttpTracing
+ |  |  |  `-MSMQ-HTTP
+ |  |  +-IIS-LoggingLibraries
+ |  |  |  `-MSMQ-HTTP
+ |  |  +-IIS-ODBCLogging
+ |  |  `-IIS-RequestMonitor
+ |  |     `-MSMQ-HTTP
+ |  +-IIS-Performance
+ |  |  +-IIS-HttpCompressionDynamic
+ |  |  `-IIS-HttpCompressionStatic
+ |  |     `-MSMQ-HTTP
+ |  `-IIS-Security
+ |     +-IIS-BasicAuthentication
+ |     +-IIS-ClientCertificateMappingAuthentication
+ |     +-IIS-DigestAuthentication
+ |     +-IIS-IISCertificateMappingAuthentication
+ |     +-IIS-IPSecurity
+ |     +-IIS-RequestFiltering
+ |     |  +-IIS-ASP
+ |     |  `-IIS-NetFxExtensibility
+ |     |     +-IIS-ASPNET
+ |     |     `-WCF-HTTP-Activation
+ |     +-IIS-URLAuthorization
+ |     `-IIS-WindowsAuthentication
+ `-IIS-WebServerManagementTools
+    +-IIS-IIS6ManagementCompatibility
+    |  +-IIS-LegacyScripts
+    |  +-IIS-LegacySnapIn
+    |  +-IIS-Metabase
+    |  |  +-IIS-LegacyScripts
+    |  |  +-IIS-LegacySnapIn
+    |  |  `-MSMQ-HTTP
+    |  `-IIS-WMICompatibility
+    |     `-IIS-LegacyScripts
+    +-IIS-ManagementConsole
+    |  `-MSMQ-HTTP
+    +-IIS-ManagementScriptingTools
+    `-IIS-ManagementService
